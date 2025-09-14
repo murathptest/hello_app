@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>Hello, My World!</h1>
+    <h1>Hello, World!</h1>
     <form>
       <label>Name:</label>
       <input type="text" name="name"><br><br>
